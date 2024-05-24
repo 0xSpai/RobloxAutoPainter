@@ -71,6 +71,7 @@ if image_path:
     
     # Save the resized image to the target directory
     image.save(new_image_path, quality=100)
+    image_pixels = image.load()
 else:
     print("No image selected.")
 
