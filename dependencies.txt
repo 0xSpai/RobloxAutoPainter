@@ -6,3 +6,4 @@ pygetwindow==0.0.9
 screeninfo==0.8.1
 psutil==5.9.8
 keyboard==0.13.5
+requests==2.32.2
