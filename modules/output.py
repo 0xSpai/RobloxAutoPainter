@@ -5,7 +5,6 @@ def clear():
     print("clearing")
     os.system('cls')
 
-# Cool ascii text
 def printAscii():
     clear()
     print(
@@ -21,8 +20,14 @@ def printAscii():
     print("                                        [-] Tool Created by 0xSpai")
     print("         ")
 
-# Main menu printing
+def printError(error_msg):
+    printAscii()
+    print("   ERROR:", error_msg)
+    print("   Quitting application..")
+    quit()
+
 def printMenu():
+    os.system('color A')
     printAscii()
     options = [
         "   [01] Custom Image",
