@@ -1,9 +1,0 @@
-pyautogui==0.9.54
-pywin32==306
-Pillow==10.3.0
-tqdm==4.66.4
-pygetwindow==0.0.9
-screeninfo==0.8.1
-psutil==5.9.8
-keyboard==0.13.5
-requests==2.32.2
