@@ -55,10 +55,6 @@ Alternative, you can generate a **random** image with options for:
 - Grayscale
 - Blurred
 
-<div align="left">
-    <img src="screenshots/main.png" alt="Starving Artists Auto Painter" style="display: block; margin: 0 auto;">
-</div>
-
 Once you've uploaded the image of choice, all you have to do is type **y** to start painting! The program will automatically resize your screen and click on each pixel in order. If you ever need to force-quit, just press **Control+Alt+Delete**.
 
 That's it! Happy painting :)
