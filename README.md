@@ -43,7 +43,7 @@ To install the project from GitHub, follow these steps:
 
 ## Usage
 
-Firstly, join the ["Starving Artists game"](https://www.roblox.com/games/8916037983/starving-artists-DONATION-GAME#!/about) and claim a booth. Sit down at the painting seat and then start the program. Ensure that full-screen is disabled.
+Firstly, join the [Starving Artists game](https://www.roblox.com/games/8916037983/starving-artists-DONATION-GAME#!/about) and claim a booth. Sit down at the painting seat and then start the program. Ensure that full-screen is disabled.
 
 In your terminal, navigate the menu.
 By going the **custom** image route, you can:
@@ -55,9 +55,11 @@ Alternative, you can generate a **random** image with options for:
 - Grayscale
 - Blurred
 
+
 <div align="left">
     <img src="screenshots/main.png" alt="Starving Artists Auto Painter" style="display: block; margin: 0 auto;">
 </div>
+
 
 Once you've uploaded the image of choice, all you have to do is type **y** to start painting! The program will automatically resize your screen and click on each pixel in order. If you ever need to force-quit, just press **Control+Alt+Delete**.
 
