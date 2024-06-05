@@ -6,7 +6,7 @@ This is a tool that allows you to auto-paint images in the Roblox game "Starving
 
 1) Adapts to screen resolution
 2) Easy-to-use interface
-3) Import images by file, web or API
+3) Import images by file, web, or API
 4) Undetected by the anti-cheat
 5) Ability to use all custom brushes
 6) Earn real money!
@@ -50,7 +50,7 @@ By going the **custom** image route, you can:
 - Upload an image by file
 - Grab image by URL
 
-Alternative, you can generate a **random** image with options for:
+Alternatively, you can generate a **random** image with options for:
 - Completely random
 - Grayscale
 - Blurred
