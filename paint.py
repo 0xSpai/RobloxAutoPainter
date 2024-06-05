@@ -29,7 +29,13 @@ if menuSelection in ["1", "01"]:
 
  # Random Image
 elif menuSelection in ["2", "02"]:
-    output.printAscii()
+    output.printRandom()
+    randomSelection = input("   Random Image | Choose: ")
+    image_pixels, image_name = image_processing.process_random_image(randomSelection)
+
+    painting.start_painting(image_pixels, image_name)
 else:
+    if menuSelection != "99":
+        output.printError("Invalid option!")
     output.clear()
     quit()
