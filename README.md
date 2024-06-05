@@ -1,5 +1,5 @@
-# Starving Artists Auto Painter
 <div align="center">
+    <h1>Starving Artists Auto Painter</h1>
     <img src="screenshots/main.png" alt="Starving Artists Auto Painter" style="display: block; margin: 0 auto;">
 </div>
 
