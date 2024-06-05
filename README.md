@@ -60,7 +60,6 @@ Alternative, you can generate a **random** image with options for:
     <img src="screenshots/main.png" alt="Starving Artists Auto Painter" style="display: block; margin: 0 auto;">
 </div>
 
-
 Once you've uploaded the image of choice, all you have to do is type **y** to start painting! The program will automatically resize your screen and click on each pixel in order. If you ever need to force-quit, just press **Control+Alt+Delete**.
 
 That's it! Happy painting :)
@@ -68,6 +67,4 @@ That's it! Happy painting :)
 ## License
 
 Distributed under the GNU General Public License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
