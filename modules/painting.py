@@ -40,26 +40,30 @@ def select_color(coords, color):
 # Start the painting process with the selected 32x32 image
 def start_painting(image_pixels, image_name):
     output.printAscii()
-    print(f"   Image selected: {image_name}")
-    start_input = input("   Begin painting? (y/n) ").lower()
-    if start_input != 'y':
+    print("   Image selected:", image_name)
+    startInput = input("   Begin painting? (y/n) ")
+    if startInput.lower() != 'y':
         output.clear()
         quit()
-
+    
     output.printAscii()
     print("Painting progress:")
     coords = setup_window()
 
     if coords is None:
-        output.printError("Something went wrong. Try again.")
-        return
+       output.printError("Something went wrong. Try again.")
     
-    pixels = {(x, y): color for x in range(32) for y in range(32) if (color := image_pixels[x, y]) != (255, 255, 255)}
+    pixels = {}
+    for x in range(32):
+        for y in range(32):
+            color = image_pixels[x, y]
+            if color != (255, 255, 255):
+                pixels.setdefault(color, []).append((x, y))
     
     time.sleep(1)
     for _ in range(2):
         click(coords["closeButtonX"], coords["closeButtonY"])
-        time.sleep(0.5)
+    time.sleep(0.5)
     click(coords["firstX"] + 530, coords["firstY"] + 590)
     time.sleep(0.5)
     click(coords["openButtonX"], coords["openButtonY"] - 205)
@@ -74,5 +78,5 @@ def start_painting(image_pixels, image_name):
             if not verify_color(click_x, click_y, color):
                 select_color(coords, color)
                 click_pixel(coords, *pixel)
-
+    
     print("\nPainting completed, enjoy!")
