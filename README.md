@@ -43,7 +43,7 @@ To install the project from GitHub, follow these steps:
 
 ## Usage
 
-Firstly, join the [Starving Artists game](https://www.roblox.com/games/8916037983/starving-artists-DONATION-GAME#!/about) and claim a booth. Sit down at the painting seat and then start the program. Ensure that full-screen is disabled.
+Firstly, join the [Starving Artists](https://www.roblox.com/games/8916037983/starving-artists-DONATION-GAME#!/about) game and claim a booth. Sit down at the painting seat and then start the program. Ensure that full-screen is disabled.
 
 In your terminal, navigate the menu.
 By going the **custom** image route, you can:
