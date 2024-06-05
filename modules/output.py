@@ -49,3 +49,15 @@ def printCustom():
     for option in options:
         print(option)
         time.sleep(0.1)
+
+def printRandom():
+    printAscii()
+    options = [
+        "   [01] Random",
+        "   [02] Grayscale",
+        "   [03] Blurred",
+        ""
+    ]
+    for option in options:
+        print(option)
+        time.sleep(0.1)
