@@ -4,7 +4,7 @@ This is a tool that allows you to auto-paint images in the Roblox game "Starving
 
 ## Features
 
-1) Adapts to screen resolutions
+1) Adapts to screen resolution
 2) Easy-to-use interface
 3) Import images by file, web or API
 4) Undetected by the anti-cheat
@@ -43,7 +43,10 @@ To install the project from GitHub, follow these steps:
 
 ## Usage
 
-Choose between a multitude of image options. By going the **custom** image route, you can:
+Firstly, join the ["Starving Artists game"](https://www.roblox.com/games/8916037983/starving-artists-DONATION-GAME#!/about) and claim a booth. Sit down at the painting seat and then start the program. Ensure that full-screen is disabled.
+
+In your terminal, navigate the menu.
+By going the **custom** image route, you can:
 - Upload an image by file
 - Grab image by URL
 
@@ -52,11 +55,13 @@ Alternative, you can generate a **random** image with options for:
 - Grayscale
 - Blurred
 
-<div align="center">
+<div align="left">
     <img src="screenshots/main.png" alt="Starving Artists Auto Painter" style="display: block; margin: 0 auto;">
 </div>
 
-That's it! Thank you for your interest in the project!
+Once you've uploaded the image of choice, all you have to do is type **y** to start painting! The program will automatically resize your screen and click on each pixel in order. If you ever need to force-quit, just press **Control+Alt+Delete**.
+
+That's it! Happy painting :)
 
 ## License
 
